@@ -58,7 +58,7 @@ int main()
         std::cout << "num2" << " - " << "num1" << " = " << calculator.subtract_2_1() << std::endl;
         std::cout << "num1" << " * " << "num2" << " = " << calculator.multiply() << std::endl;
         std::cout << "num1" << " / " << "num2" << " = " << calculator.divide_1_2() << std::endl;
-        std::cout << "num2" << " / " << "num1" << " = " << calculator.add() << std::endl;
+        std::cout << "num2" << " / " << "num1" << " = " << calculator.divide_2_1() << std::endl;
        
         std::cout << "Для выхода напиши 0, для продолжения люббой символ! ";
         std::cin >> quit;
